@@ -50,5 +50,11 @@ git commit -m "file"
 ```
 STEP 9: 上传
 执行以下命令:
+```
 git push origin master
+```
+补充:若该目录第一次使用版本控制,则需在第8步和第9步之间插入以下操作:
+```
+git remote add origin HTTPS/SSH
+```
 
